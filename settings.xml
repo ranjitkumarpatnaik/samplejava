@@ -18,7 +18,7 @@
       <repositories>
         <repository>
           <id>central</id>
-          <url>http://central</url>
+          <url>https://central</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -26,7 +26,7 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://central</url>
+          <url>https://central</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
@@ -42,7 +42,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
     </mirror>
   </mirrors>
   <servers>
